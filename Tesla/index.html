@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Tesla</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">  
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/popper.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+
+</head>
+<body>
+<!-- ENTETE -->
+<header>
+  	<div class="collapse bg-dark" id="navbarHeader">
+	    <div class="container">
+	      <div class="row">
+	        <div class="col-sm-8 col-md-7 py-4">
+	          <span class="text-white">A propos</span>
+	          <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+	        </div>
+	        <div class="col-sm-4 offset-md-1 py-4">
+	          <span class="text-white">Contact</span>
+	          <ul class="list-unstyled">
+	            <li><a href="#" class="text-white">Suivez-nous sur Twitter</a></li>
+	            <li><a href="#" class="text-white">Aimer sur Facebook</a></li>
+	            <li><a href="#" class="text-white">Envoyez-nous un Email</a></li>
+	          </ul>
+	        </div>
+	      </div>
+	    </div>
+  	</div>
+   	<div class="navbar navbar-dark bg-dark shadow-sm">
+	    <div class="container d-flex justify-content-between">
+	      <a href="#" class="navbar-brand d-flex align-items-center">
+	        <strong>Tesla</strong>
+	      </a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>
+	      </button>
+	    </div>
+  	</div>
+</header>
+<!-- AFFICHAGE DU JUMBOTRON -->
+<div class="jumbotron jumbotron-fluid text-white">
+  <div class="container">
+    <h1 class="display-4">Bienvenue.</h1>
+    <p class="lead">Le site Tesla vous permet de commander vos fusées et vos voitures, même lorsque vous êtes dans votre canapé.      <span class="badge badge-success">Un conseiller est en ligne.</span></p>
+  </div>
+</div>
+
+<!-- PREMIERE SECTION -->
+<section>
+  
+  <div class="container mt-5">
+    
+    <!-- PROGRESS BAR -->
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped bg-danger" style="width: 43%"></div>
+    </div>
+    
+    <!-- ALERT -->
+    <div class="alert alert-primary" role="alert">
+    Bienvenue sur Tesla. Ce site est en maintenance.
+    <hr>
+      <div class="btn-group btn-block">
+        <a class="btn btn-danger" href="https://twitter.com/believemy">Suivre les avancements</a>
+        <a class="btn btn-success" href="#contact">Nous contacter</a>
+      </div>
+    </div>
+    
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Maintenance</li>
+      </ol>
+    </nav>
+    
+  </div>
+  
+</section>
+
+<!-- DEUXIEME SECTION -->
+<section>
+  
+  <div class="container mt-3">
+    <div class="card-deck">
+      
+    <div class="card text-white bg-secondary mb-3">
+      <img src="https://believemy.com/uploads/c7fe8837368024dc01e1845337f167e9_18fb807dabb97a3e4f920d1b0c9176b1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nouveautés</h5>
+        <p class="card-text">Vous pourrez bientôt acheter des fusées pour aller sur la lune.</p>
+      </div>
+    </div>
+    
+    <div class="card text-white bg-secondary mb-3">
+      <img src="https://believemy.com/uploads/c7fe8837368024dc01e1845337f167e9_18fb807dabb97a3e4f920d1b0c9176b1.png" class="card-img-top" alt="...">
+      <div class="card-header">Information</div>
+      <div class="card-body">
+        <h5 class="card-title">Nouveautés</h5>
+        <p class="card-text">Les 30 premiers acheteurs de fusées partiront avec Elon Musk.</p>
+      </div>
+    </div>
+      
+    </div>
+  </div>
+  
+</section>
+
+<!-- TROISIEME SECTION -->
+<section class="bg-dark p-5 text-white">
+  <div class="mx-auto" style="width: 400px">
+    <h2>Contactez-nous</h2>
+    <form>
+      <div class="form-group">
+        <label>Adresse email</label>
+        <input type="email" class="form-control" placeholder="Entrez votre adresse email">
+        <small id="emailHelp" class="form-text text-muted">Nous ne partagerons pas votre adresse email.</small>
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-outline-light">Soumettre</button>
+    </form>
+  </div>
+</section>
+
+<!-- PIED DE PAGE -->
+<footer class="bg-secondary p-3">
+  <div class="container">
+    2019 © Tesla
+  </div>
+</footer>
+
+	
+</body>
+</html>

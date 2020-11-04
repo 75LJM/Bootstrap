@@ -1,0 +1,47 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.img-position img{
+  position: relative;
+}
+.img-position div{
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+.img-position {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+}
+.img-position:hover{
+      color:#ffffff;
+}
+
+.grad {
+  background: #ECD2B1; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#B5AD86, #ECD2B1); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#B5AD86, #ECD2B1); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#B5AD86, #ECD2B1); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#B5AD86, #ECD2B1); /* Standard syntax */
+}
